@@ -1,0 +1,5 @@
+FROM postgres:11.2-alpine
+
+ENV POSTGRES_PASSWORD=test
+ENV POSTGRES_DB=test
+
